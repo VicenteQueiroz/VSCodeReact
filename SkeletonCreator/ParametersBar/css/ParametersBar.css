@@ -1,0 +1,109 @@
+.parametersBar {
+  flex-grow: 1;
+  display: "flex";
+  flex-direction: "column";
+  background-color: #2a292a;
+}
+.fullBar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2a292a;
+}
+
+.bar_title {
+  height: 34px;
+  line-height: 34px;
+  color: #bababa;
+  text-align: center;
+}
+
+.params_list {
+  flex-grow: 1;
+}
+
+.params_title_bar {
+  text-align: center;
+  background-color: #3b3a3b;
+  box-shadow: 0px 2px #222222;
+  height: 25px;
+  display: flex;
+}
+
+.no_params_text {
+  height: 100%;
+  color: #96968c;
+  margin-left: 20px;
+}
+.params_text {
+  height: 100%;
+  color: #96968c;
+  margin-left: 20px;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.acordion {
+  color: #adaead;
+}
+.acordion:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.params_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.param {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px 0px 2px 0px;
+}
+
+.param_title {
+  color: #bfbfbf;
+  vertical-align: middle;
+}
+
+.vRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.obj_key {
+  color: white;
+}
+
+.input_number {
+  text-align: center;
+  background-color: #2a292a;
+  color: #bfbfbf;
+  border: none;
+  border-radius: 2px;
+  width: 75%;
+}
+.input_string {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #b6b6b60d;
+  color: #bfbfbf;
+  border: none;
+  width: 75%;
+}
+
+.input_boolean:hover {
+  cursor: pointer;
+}
+
+.input_object {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #b6b6b60d;
+  color: #bfbfbf;
+  border: none;
+  width: 75%;
+}

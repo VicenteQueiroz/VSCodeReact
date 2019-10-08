@@ -1,0 +1,51 @@
+.gridLayoutContainer {
+  display: flex;
+  /* background-color: #ffdeb7; */
+}
+
+.gridItemDev {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
+}
+
+/* .removeGridItem {
+} */
+.removeGridItem:hover {
+  cursor: pointer;
+}
+
+.editPropertiesBtn {
+  background-color: #cccbcb91;
+}
+/* .container_right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px;
+} */
+.container_center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-grow: 1;
+  padding: 0%;
+}
+
+.container_select {
+  display: flex;
+  justify-content: center;
+}
+
+.select {
+  width: 75%;
+}
+
+.widgetSelector {
+  background-color: #cccbcb91;
+}

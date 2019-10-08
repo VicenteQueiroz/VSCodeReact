@@ -1,0 +1,55 @@
+.content_root {
+  /* 40px is the height of the top bar  */
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: row;
+  background-color: #232323;
+}
+
+.layout {
+  flex-grow: 1;
+  background-color: #232323;
+}
+
+.welcome_screen {
+  height: calc(100% - 34px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.welcome_centered {
+  margin: auto;
+  height: 75%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.welcome_buttons {
+  /* margin: 15px 0 12px 0;
+  background-color: #40403c;
+  color: white;
+  border: none;
+  border-radius: 2px; */
+  /* color: #326eea; */
+  color: #53b5ff;
+}
+
+.welcome_buttons:hover {
+  cursor: pointer;
+}
+
+.welcome_company_title {
+  color: #cfcfcf;
+}
+
+.welcome_app_title {
+  color: #96968c;
+}
+
+.welcome_subtitle {
+  color: #bfbfbf;
+}
